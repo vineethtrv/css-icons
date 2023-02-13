@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>CSS Icons</title>
+</head>
+<body>
+    <header class="app-header">
+        <h1 class="brand">CSS Icons</h1>
+        <nav>
+            <!-- <a class="nav-btn codepen" title="View in CodePen" target="_blank"
+                href="https://codepen.io/vineethtrv/pen/MWGzaMO"></a>
+            <a class="nav-btn git" target="_blank" title="Fork Github" href="https://github.com/vineethtrv/css-toggles"></a> -->
+        </nav>
+    </header>
+
+
+
+<!-- Demo -->
+<div id="demo">
+
+    <div id="demo-icon">
+        <span class="icon-check"></span>
+        <span class="icon-check-all"></span>
+        <span class="icon-download-check"></span>
+        <span class="icon-circle-check"></span>
+
+
+    </div>
+    <div class="controller">
+        <small id="fz-l">32px</small>
+        <input id="fz" type="range" min="1" value="32" max="200">
+        <input id="color" type="color">
+
+    </div>
+</div>
+
+<!-- /.Demo -->
+
+    <main class="container" id="app">
+        <section class="list">
+            <span class="icon-square"></span>
+            <span class="icon-square-o"></span>
+
+            <span class="icon-circle-o"></span>
+            <span class="icon-circle"></span>
+
+            <span class="icon-check-box-o"></span>
+            <span class="icon-check-box"></span>
+
+            <span class="icon-radio-button-o"></span>
+            <span class="icon-radio-button"></span>
+
+            <span class="icon-toggle-on"></span>
+            <span class="icon-toggle-off"></span>
+
+            <span class="icon-check"></span>
+            <span class="icon-check-all"></span>
+            <span class="icon-download-check"></span>
+            <span class="icon-circle-check"></span>
+
+        </section>
+
+    </main>
+    
+    
+    <!-- Code Popup -->
+    <div class="overlay">
+        <div class="popup">
+            <button class="btn-close">&times;</button>
+            <div class="showcase"></div>
+            <div class="code-content">
+                <div class="code-area">
+                    <div class="code-header">
+                        HTML
+                        <button class="copy" data-id="markup">Copy</button>
+                    </div>
+                    <code id="markup"></code>
+                </div>
+                <div class="code-area">
+                    <div class="code-header">
+                        CSS
+                        <button class="copy" data-id="css">Copy</button>
+                    </div>
+                    <code id='css'></code>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    <!-- Footer -->
+    <footer>
+        <a href="https://vineethtrv.github.io/" target="_blank">
+            <span>👨&zwj;💻</span>
+            Vineeth TR
+        </a>
+    </footer>
+    <script type="module" src="./assets/js/app.js"></script>
+</body>
+</html>
