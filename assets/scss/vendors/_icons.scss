@@ -203,3 +203,248 @@
         margin: auto;
     }
 }
+
+.icon-remove {
+    @extend %icon;
+    width: 1em;
+    height: 1em;
+    &::after {
+        content: '';
+        position: absolute;
+        width: 0.75em;
+        height: 0.1em;
+        background: currentColor;
+        inset: 0;
+        margin: auto;
+    }
+}
+
+.icon-square-remove {
+    @extend %icon;
+    width: 1em;
+    height: 1em;
+    border: 0.1em solid currentColor;
+    &::after {
+        content: '';
+        position: absolute;
+        width: 0.5em;
+        height: 0.1em;
+        background: currentColor;
+        inset: 0;
+        margin: auto;
+    }
+}
+
+.icon-box-remove {
+    @extend %icon;
+    width: 1em;
+    height: 1em;
+    border: 0.1em solid currentColor;
+    border-radius: 0.2em;
+    &::after {
+        content: '';
+        position: absolute;
+        width: 0.5em;
+        height: 0.1em;
+        background: currentColor;
+        inset: 0;
+        margin: auto;
+    }
+}
+
+.icon-circle-remove {
+    @extend %icon;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    border: 0.1em solid currentColor;
+    &::after {
+        content: '';
+        position: absolute;
+        width: 0.5em;
+        height: 0.1em;
+        background: currentColor;
+        inset: 0;
+        margin: auto;
+    }
+}
+
+.icon-add {
+    @extend %icon;
+    width: 1em;
+    height: 1em;
+
+    &::after , &::before {
+        content: '';
+        position: absolute;
+        width: 0.75em;
+        height: 0.1em;
+        background: currentColor;
+        inset: 0;
+        margin: auto;
+    }
+    &::before {
+        width: 0.1em;
+        height: 0.75em;
+    }
+}
+
+.icon-square-add {
+    @extend %icon;
+    width: 1em;
+    height: 1em;
+    border: 0.1em solid currentColor;
+    &::after,
+    &::before {
+        content: '';
+        position: absolute;
+        width: 0.5em;
+        height: 0.1em;
+        background: currentColor;
+        inset: 0;
+        margin: auto;
+    }
+    &::before {
+        width: 0.1em;
+        height: 0.5em;
+    }
+}
+
+.icon-box-add {
+    @extend %icon;
+    width: 1em;
+    height: 1em;
+    border: 0.1em solid currentColor;
+    border-radius: 0.2em;
+    &::after,
+    &::before {
+        content: '';
+        position: absolute;
+        width: 0.5em;
+        height: 0.1em;
+        background: currentColor;
+        inset: 0;
+        margin: auto;
+    }
+
+    &::before {
+        width: 0.1em;
+        height: 0.5em;
+    }
+}
+
+.icon-circle-add {
+    @extend %icon;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    border: 0.1em solid currentColor;
+    &::after,
+    &::before {
+        content: '';
+        position: absolute;
+        width: 0.5em;
+        height: 0.1em;
+        background: currentColor;
+        inset: 0;
+        margin: auto;
+    }
+
+    &::before {
+        width: 0.1em;
+        height: 0.5em;
+    }
+}
+
+.icon-close {
+    @extend %icon;
+    width: 1em;
+    height: 1em;
+
+    &::after,
+    &::before {
+        content: '';
+        position: absolute;
+        width: 0.75em;
+        height: 0.1em;
+        background: currentColor;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(45deg);
+    }
+
+    &::before {
+        width: 0.1em;
+        height: 0.75em;
+    }
+}
+
+.icon-square-close {
+    @extend %icon;
+    width: 1em;
+    height: 1em;
+    border: 0.1em solid currentColor;
+    &::after,
+    &::before {
+        content: '';
+        position: absolute;
+        width: 0.5em;
+        height: 0.1em;
+        background: currentColor;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(45deg);
+    }
+
+    &::before {
+        width: 0.1em;
+        height: 0.5em;
+    }
+}
+
+.icon-box-close {
+    @extend %icon;
+    width: 1em;
+    height: 1em;
+    border: 0.1em solid currentColor;
+    border-radius: 0.2em;
+    &::after,
+    &::before {
+        content: '';
+        position: absolute;
+        width: 0.5em;
+        height: 0.1em;
+        background: currentColor;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(45deg);
+    }
+
+    &::before {
+        width: 0.1em;
+        height: 0.5em;
+    }
+}
+
+.icon-circle-close {
+    @extend %icon;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    border: 0.1em solid currentColor;
+    &::after,
+    &::before {
+        content: '';
+        position: absolute;
+        width: 0.5em;
+        height: 0.1em;
+        background: currentColor;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(45deg);
+    }
+    &::before {
+        width: 0.1em;
+        height: 0.5em;
+    }
+}

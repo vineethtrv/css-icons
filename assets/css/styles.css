@@ -6,9 +6,9 @@
 }
 
 :root {
-  --body-bg: #f5f5f5;
+  --body-bg: #fff;
   --prime: #3e35f1;
-  --text: #3a3c4c;
+  --text: #4a4a4a;
   --card-bg: #fff;
   font-size: 14px;
   line-height: 1.5;
@@ -105,19 +105,30 @@ a:hover {
   font-size: 1.7rem;
   display: flex;
   align-items: center;
+  position: relative;
+  font-weight: 500;
 }
 
 .brand::before {
   content: '';
-  border: 2px solid var(--prime);
-  margin-right: 0.5rem;
+  margin-right: 0.75rem;
   height: 1.5rem;
   width: 1.5rem;
   position: relative;
-  background-image: radial-gradient(var(--prime) 70%, transparent 0%);
-  background-size: 1rem 1rem;
+  background-image: radial-gradient(#04abfe 50%, #0000 50%), linear-gradient(#e66465 1rem, #0000 0);
+  background-size: 1.5rem 1.5rem, 1rem 1rem;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 1px 1px, 0 0;
+  z-index: 1;
+}
+
+.brand::after {
+  content: '';
+  position: absolute;
+  border: 0.75rem solid #0000;
+  border-bottom: 1rem solid #04c96a;
+  left: 0.5rem;
+  top: -0.2rem;
 }
 
 #app {
@@ -366,12 +377,12 @@ code {
   font-size: 32px;
 }
 
-.icon-circle-check, .icon-download-check, .icon-check-all, .icon-check, .icon-toggle-on, .icon-toggle-off, .icon-radio-button, .icon-radio-button-o, .icon-check-box, .icon-check-box-o, .icon-circle-o, .icon-circle, .icon-square-o, .icon-square {
+.icon-circle-close, .icon-box-close, .icon-square-close, .icon-close, .icon-circle-add, .icon-box-add, .icon-square-add, .icon-add, .icon-circle-remove, .icon-box-remove, .icon-square-remove, .icon-remove, .icon-circle-check, .icon-download-check, .icon-check-all, .icon-check, .icon-toggle-on, .icon-toggle-off, .icon-radio-button, .icon-radio-button-o, .icon-check-box, .icon-check-box-o, .icon-circle-o, .icon-circle, .icon-square-o, .icon-square {
   display: inline-block;
   position: relative;
 }
 
-.icon-circle-check, .icon-download-check, .icon-check-all, .icon-check, .icon-toggle-on, .icon-toggle-off, .icon-radio-button, .icon-radio-button-o, .icon-check-box, .icon-check-box-o, .icon-circle-o, .icon-circle, .icon-square-o, .icon-square, .icon-circle-check::after, .icon-download-check::after, .icon-check-all::after, .icon-check::after, .icon-toggle-on::after, .icon-toggle-off::after, .icon-radio-button::after, .icon-radio-button-o::after, .icon-check-box::after, .icon-check-box-o::after, .icon-circle-o::after, .icon-circle::after, .icon-square-o::after, .icon-square::after, .icon-circle-check::before, .icon-download-check::before, .icon-check-all::before, .icon-check::before, .icon-toggle-on::before, .icon-toggle-off::before, .icon-radio-button::before, .icon-radio-button-o::before, .icon-check-box::before, .icon-check-box-o::before, .icon-circle-o::before, .icon-circle::before, .icon-square-o::before, .icon-square::before {
+.icon-circle-close, .icon-box-close, .icon-square-close, .icon-close, .icon-circle-add, .icon-box-add, .icon-square-add, .icon-add, .icon-circle-remove, .icon-box-remove, .icon-square-remove, .icon-remove, .icon-circle-check, .icon-download-check, .icon-check-all, .icon-check, .icon-toggle-on, .icon-toggle-off, .icon-radio-button, .icon-radio-button-o, .icon-check-box, .icon-check-box-o, .icon-circle-o, .icon-circle, .icon-square-o, .icon-square, .icon-circle-close::after, .icon-box-close::after, .icon-square-close::after, .icon-close::after, .icon-circle-add::after, .icon-box-add::after, .icon-square-add::after, .icon-add::after, .icon-circle-remove::after, .icon-box-remove::after, .icon-square-remove::after, .icon-remove::after, .icon-circle-check::after, .icon-download-check::after, .icon-check-all::after, .icon-check::after, .icon-toggle-on::after, .icon-toggle-off::after, .icon-radio-button::after, .icon-radio-button-o::after, .icon-check-box::after, .icon-check-box-o::after, .icon-circle-o::after, .icon-circle::after, .icon-square-o::after, .icon-square::after, .icon-circle-close::before, .icon-box-close::before, .icon-square-close::before, .icon-close::before, .icon-circle-add::before, .icon-box-add::before, .icon-square-add::before, .icon-add::before, .icon-circle-remove::before, .icon-box-remove::before, .icon-square-remove::before, .icon-remove::before, .icon-circle-check::before, .icon-download-check::before, .icon-check-all::before, .icon-check::before, .icon-toggle-on::before, .icon-toggle-off::before, .icon-radio-button::before, .icon-radio-button-o::before, .icon-check-box::before, .icon-check-box-o::before, .icon-circle-o::before, .icon-circle::before, .icon-square-o::before, .icon-square::before {
   box-sizing: border-box;
 }
 
@@ -571,4 +582,243 @@ code {
   transform: translateY(-0.05em) rotate(45deg);
   inset: 0;
   margin: auto;
+}
+
+.icon-remove {
+  width: 1em;
+  height: 1em;
+}
+
+.icon-remove::after {
+  content: '';
+  position: absolute;
+  width: 0.75em;
+  height: 0.1em;
+  background: currentColor;
+  inset: 0;
+  margin: auto;
+}
+
+.icon-square-remove {
+  width: 1em;
+  height: 1em;
+  border: 0.1em solid currentColor;
+}
+
+.icon-square-remove::after {
+  content: '';
+  position: absolute;
+  width: 0.5em;
+  height: 0.1em;
+  background: currentColor;
+  inset: 0;
+  margin: auto;
+}
+
+.icon-box-remove {
+  width: 1em;
+  height: 1em;
+  border: 0.1em solid currentColor;
+  border-radius: 0.2em;
+}
+
+.icon-box-remove::after {
+  content: '';
+  position: absolute;
+  width: 0.5em;
+  height: 0.1em;
+  background: currentColor;
+  inset: 0;
+  margin: auto;
+}
+
+.icon-circle-remove {
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  border: 0.1em solid currentColor;
+}
+
+.icon-circle-remove::after {
+  content: '';
+  position: absolute;
+  width: 0.5em;
+  height: 0.1em;
+  background: currentColor;
+  inset: 0;
+  margin: auto;
+}
+
+.icon-add {
+  width: 1em;
+  height: 1em;
+}
+
+.icon-add::after, .icon-add::before {
+  content: '';
+  position: absolute;
+  width: 0.75em;
+  height: 0.1em;
+  background: currentColor;
+  inset: 0;
+  margin: auto;
+}
+
+.icon-add::before {
+  width: 0.1em;
+  height: 0.75em;
+}
+
+.icon-square-add {
+  width: 1em;
+  height: 1em;
+  border: 0.1em solid currentColor;
+}
+
+.icon-square-add::after, .icon-square-add::before {
+  content: '';
+  position: absolute;
+  width: 0.5em;
+  height: 0.1em;
+  background: currentColor;
+  inset: 0;
+  margin: auto;
+}
+
+.icon-square-add::before {
+  width: 0.1em;
+  height: 0.5em;
+}
+
+.icon-box-add {
+  width: 1em;
+  height: 1em;
+  border: 0.1em solid currentColor;
+  border-radius: 0.2em;
+}
+
+.icon-box-add::after, .icon-box-add::before {
+  content: '';
+  position: absolute;
+  width: 0.5em;
+  height: 0.1em;
+  background: currentColor;
+  inset: 0;
+  margin: auto;
+}
+
+.icon-box-add::before {
+  width: 0.1em;
+  height: 0.5em;
+}
+
+.icon-circle-add {
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  border: 0.1em solid currentColor;
+}
+
+.icon-circle-add::after, .icon-circle-add::before {
+  content: '';
+  position: absolute;
+  width: 0.5em;
+  height: 0.1em;
+  background: currentColor;
+  inset: 0;
+  margin: auto;
+}
+
+.icon-circle-add::before {
+  width: 0.1em;
+  height: 0.5em;
+}
+
+.icon-close {
+  width: 1em;
+  height: 1em;
+}
+
+.icon-close::after, .icon-close::before {
+  content: '';
+  position: absolute;
+  width: 0.75em;
+  height: 0.1em;
+  background: currentColor;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.icon-close::before {
+  width: 0.1em;
+  height: 0.75em;
+}
+
+.icon-square-close {
+  width: 1em;
+  height: 1em;
+  border: 0.1em solid currentColor;
+}
+
+.icon-square-close::after, .icon-square-close::before {
+  content: '';
+  position: absolute;
+  width: 0.5em;
+  height: 0.1em;
+  background: currentColor;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.icon-square-close::before {
+  width: 0.1em;
+  height: 0.5em;
+}
+
+.icon-box-close {
+  width: 1em;
+  height: 1em;
+  border: 0.1em solid currentColor;
+  border-radius: 0.2em;
+}
+
+.icon-box-close::after, .icon-box-close::before {
+  content: '';
+  position: absolute;
+  width: 0.5em;
+  height: 0.1em;
+  background: currentColor;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.icon-box-close::before {
+  width: 0.1em;
+  height: 0.5em;
+}
+
+.icon-circle-close {
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  border: 0.1em solid currentColor;
+}
+
+.icon-circle-close::after, .icon-circle-close::before {
+  content: '';
+  position: absolute;
+  width: 0.5em;
+  height: 0.1em;
+  background: currentColor;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.icon-circle-close::before {
+  width: 0.1em;
+  height: 0.5em;
 }
