@@ -1008,3 +1008,125 @@
         background: currentColor;
     }
 }
+
+.icon-caret-left{
+    @extend %icon;
+        width: 1em;
+        height: 1em;
+        &::after {
+            content: '';
+            position: absolute;
+            border: 0.5em solid transparent;
+            border-right-color: currentColor;
+            left: 50%;
+            top: 50%;
+            transform: translate(-75%, -50%);
+        }
+}
+.icon-caret-right{
+    @extend %icon;
+        width: 1em;
+        height: 1em;
+        &::after {
+            content: '';
+            position: absolute;
+            border: 0.5em solid transparent;
+            border-left-color: currentColor;
+            left: 50%;
+            top: 50%;
+            transform: translate(-25%, -50%);
+        }
+}
+.icon-caret-up{
+    @extend %icon;
+        width: 1em;
+        height: 1em;
+        &::after {
+            content: '';
+            position: absolute;
+            border: 0.5em solid transparent;
+            border-bottom-color: currentColor;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -75%);
+        }
+}
+.icon-caret-down{
+    @extend %icon;
+        width: 1em;
+        height: 1em;
+        &::after {
+            content: '';
+            position: absolute;
+            border: 0.5em solid transparent;
+            border-top-color: currentColor;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -25%);
+        }
+}
+
+
+.icon-circle-caret-left {
+    @extend %icon;
+    width: 1em;
+    height: 1em;
+    border: 0.1em solid currentColor;
+    border-radius: 50%;
+    &::after {
+        content: '';
+        position: absolute;
+        border: 0.25em solid transparent;
+        border-right-color: currentColor;
+        left: 0;
+        top: 0.15em;
+    }
+}
+
+.icon-circle-caret-right {
+    @extend %icon;
+    width: 1em;
+    height: 1em;
+    border: 0.1em solid currentColor;
+    border-radius: 50%;
+    &::after {
+        content: '';
+        position: absolute;
+        border: 0.25em solid transparent;
+        border-left-color: currentColor;
+        right: 0;
+        top: 0.15em;
+    }
+}
+
+.icon-circle-caret-up {
+    @extend %icon;
+    width: 1em;
+    height: 1em;
+    border: 0.1em solid currentColor;
+    border-radius: 50%;
+    &::after {
+        content: '';
+        position: absolute;
+        border: 0.25em solid transparent;
+        border-bottom-color: currentColor;
+        right: 0.15em;
+        top: 0;
+    }
+}
+
+.icon-circle-caret-down {
+    @extend %icon;
+    width: 1em;
+    height: 1em;
+    border: 0.1em solid currentColor;
+    border-radius: 50%;
+    &::after {
+        content: '';
+        position: absolute;
+        border: 0.25em solid transparent;
+        border-top-color: currentColor;
+        right: 0.15em;
+        bottom: 0;
+    }
+}
