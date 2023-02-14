@@ -685,3 +685,204 @@
     }
 }
 
+.icon-arrow-left {
+    @extend %icon;
+    width: 1em;
+    height: 1em;
+    &::after {
+        content: '';
+        position: absolute;
+        width: 0.4em;
+        height: 0.4em;
+        border-left: 0.1em solid currentColor;
+        border-bottom: 0.1em solid currentColor;
+        left: 0.25em;
+        top: 50%;
+        transform: translateY(-50%) rotate(45deg);
+    }
+    &::before{
+        content: '';
+        position: absolute;
+        width: 0.5em;
+        height: 0.1em;
+        inset: 0;
+        margin: auto ;
+        background: currentColor;
+    }
+}
+.icon-arrow-right {
+    @extend %icon;
+    width: 1em;
+    height: 1em;
+    &::after {
+        content: '';
+        position: absolute;
+        width: 0.4em;
+        height: 0.4em;
+        border-right: 0.1em solid currentColor;
+        border-top: 0.1em solid currentColor;
+        right: 0.25em;
+        top: 50%;
+        transform: translateY(-50%) rotate(45deg);
+    }
+    &::before{
+        content: '';
+        position: absolute;
+        width: 0.5em;
+        height: 0.1em;
+        inset: 0;
+        margin: auto ;
+        background: currentColor;
+    }
+}
+.icon-arrow-up {
+    @extend %icon;
+    width: 1em;
+    height: 1em;
+    &::after {
+        content: '';
+        position: absolute;
+        width: 0.4em;
+        height: 0.4em;
+        border-left: 0.1em solid currentColor;
+        border-top: 0.1em solid currentColor;
+        left: 50%;
+        top: 0.25em;
+        transform: translateX(-50%) rotate(45deg);
+    }
+    &::before{
+        content: '';
+        position: absolute;
+        width: 0.1em;
+        height: 0.5em;
+        inset: 0;
+        margin: auto ;
+        background: currentColor;
+    }
+}
+.icon-arrow-down {
+    @extend %icon;
+    width: 1em;
+    height: 1em;
+    &::after {
+        content: '';
+        position: absolute;
+        width: 0.4em;
+        height: 0.4em;
+        border-right: 0.1em solid currentColor;
+        border-bottom: 0.1em solid currentColor;
+        left: 50%;
+        bottom: 0.25em;
+        transform: translateX(-50%) rotate(45deg);
+    }
+    &::before{
+        content: '';
+        position: absolute;
+        width: 0.1em;
+        height: 0.5em;
+        inset: 0;
+        margin: auto ;
+        background: currentColor;
+    }
+}
+
+.icon-long-arrow-left {
+    @extend %icon;
+    width: 1em;
+    height: 1em;
+    &::after {
+        content: '';
+        position: absolute;
+        width: 0.4em;
+        height: 0.4em;
+        border-left: 0.1em solid currentColor;
+        border-bottom: 0.1em solid currentColor;
+        left: 0.1em;
+        top: 50%;
+        transform: translateY(-50%) rotate(45deg);
+    }
+    &::before{
+        content: '';
+        position: absolute;
+        width: 0.8em;
+        height: 0.1em;
+        inset: 0;
+        margin: auto ;
+        background: currentColor;
+    }
+}
+.icon-long-arrow-right {
+    @extend %icon;
+    width: 1em;
+    height: 1em;
+    &::after {
+        content: '';
+        position: absolute;
+        width: 0.4em;
+        height: 0.4em;
+        border-right: 0.1em solid currentColor;
+        border-top: 0.1em solid currentColor;
+        right: 0.1em;
+        top: 50%;
+        transform: translateY(-50%) rotate(45deg);
+    }
+    &::before{
+        content: '';
+        position: absolute;
+        width: 0.8em;
+        height: 0.1em;
+        inset: 0;
+        margin: auto ;
+        background: currentColor;
+    }
+}
+.icon-long-arrow-up {
+    @extend %icon;
+    width: 1em;
+    height: 1em;
+    &::after {
+        content: '';
+        position: absolute;
+        width: 0.4em;
+        height: 0.4em;
+        border-left: 0.1em solid currentColor;
+        border-top: 0.1em solid currentColor;
+        left: 50%;
+        top: 0.1em;
+        transform: translateX(-50%) rotate(45deg);
+    }
+    &::before{
+        content: '';
+        position: absolute;
+        width: 0.1em;
+        height: 0.8em;
+        inset: 0;
+        margin: auto ;
+        background: currentColor;
+    }
+}
+.icon-long-arrow-down {
+    @extend %icon;
+    width: 1em;
+    height: 1em;
+    &::after {
+        content: '';
+        position: absolute;
+        width: 0.4em;
+        height: 0.4em;
+        border-right: 0.1em solid currentColor;
+        border-bottom: 0.1em solid currentColor;
+        left: 50%;
+        bottom: 0.1em;
+        transform: translateX(-50%) rotate(45deg);
+    }
+    &::before{
+        content: '';
+        position: absolute;
+        width: 0.1em;
+        height: 0.8em;
+        inset: 0;
+        margin: auto ;
+        background: currentColor;
+    }
+}

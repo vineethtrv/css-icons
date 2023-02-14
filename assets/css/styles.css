@@ -378,12 +378,12 @@ code {
   font-size: 32px;
 }
 
-.icon-angle-down, .icon-angle-up, .icon-angle-right, .icon-angle-left, .icon-chevrons-down, .icon-chevron-down, .icon-chevrons-up, .icon-chevron-up, .icon-chevrons-right, .icon-chevron-right, .icon-chevrons-left, .icon-chevron-left, .icon-block, .icon-circle-close, .icon-box-close, .icon-square-close, .icon-close, .icon-circle-add, .icon-box-add, .icon-square-add, .icon-add, .icon-circle-remove, .icon-box-remove, .icon-square-remove, .icon-remove, .icon-circle-check, .icon-download-check, .icon-check-all, .icon-check, .icon-toggle-on, .icon-toggle-off, .icon-radio-button, .icon-radio-button-o, .icon-check-box, .icon-check-box-o, .icon-circle-o, .icon-circle, .icon-square-o, .icon-square {
+.icon-long-arrow-down, .icon-long-arrow-up, .icon-long-arrow-right, .icon-long-arrow-left, .icon-arrow-down, .icon-arrow-up, .icon-arrow-right, .icon-arrow-left, .icon-angle-down, .icon-angle-up, .icon-angle-right, .icon-angle-left, .icon-chevrons-down, .icon-chevron-down, .icon-chevrons-up, .icon-chevron-up, .icon-chevrons-right, .icon-chevron-right, .icon-chevrons-left, .icon-chevron-left, .icon-block, .icon-circle-close, .icon-box-close, .icon-square-close, .icon-close, .icon-circle-add, .icon-box-add, .icon-square-add, .icon-add, .icon-circle-remove, .icon-box-remove, .icon-square-remove, .icon-remove, .icon-circle-check, .icon-download-check, .icon-check-all, .icon-check, .icon-toggle-on, .icon-toggle-off, .icon-radio-button, .icon-radio-button-o, .icon-check-box, .icon-check-box-o, .icon-circle-o, .icon-circle, .icon-square-o, .icon-square {
   display: inline-block;
   position: relative;
 }
 
-.icon-angle-down, .icon-angle-up, .icon-angle-right, .icon-angle-left, .icon-chevrons-down, .icon-chevron-down, .icon-chevrons-up, .icon-chevron-up, .icon-chevrons-right, .icon-chevron-right, .icon-chevrons-left, .icon-chevron-left, .icon-block, .icon-circle-close, .icon-box-close, .icon-square-close, .icon-close, .icon-circle-add, .icon-box-add, .icon-square-add, .icon-add, .icon-circle-remove, .icon-box-remove, .icon-square-remove, .icon-remove, .icon-circle-check, .icon-download-check, .icon-check-all, .icon-check, .icon-toggle-on, .icon-toggle-off, .icon-radio-button, .icon-radio-button-o, .icon-check-box, .icon-check-box-o, .icon-circle-o, .icon-circle, .icon-square-o, .icon-square, .icon-angle-down::after, .icon-angle-up::after, .icon-angle-right::after, .icon-angle-left::after, .icon-chevrons-down::after, .icon-chevron-down::after, .icon-chevrons-up::after, .icon-chevron-up::after, .icon-chevrons-right::after, .icon-chevron-right::after, .icon-chevrons-left::after, .icon-chevron-left::after, .icon-block::after, .icon-circle-close::after, .icon-box-close::after, .icon-square-close::after, .icon-close::after, .icon-circle-add::after, .icon-box-add::after, .icon-square-add::after, .icon-add::after, .icon-circle-remove::after, .icon-box-remove::after, .icon-square-remove::after, .icon-remove::after, .icon-circle-check::after, .icon-download-check::after, .icon-check-all::after, .icon-check::after, .icon-toggle-on::after, .icon-toggle-off::after, .icon-radio-button::after, .icon-radio-button-o::after, .icon-check-box::after, .icon-check-box-o::after, .icon-circle-o::after, .icon-circle::after, .icon-square-o::after, .icon-square::after, .icon-angle-down::before, .icon-angle-up::before, .icon-angle-right::before, .icon-angle-left::before, .icon-chevrons-down::before, .icon-chevron-down::before, .icon-chevrons-up::before, .icon-chevron-up::before, .icon-chevrons-right::before, .icon-chevron-right::before, .icon-chevrons-left::before, .icon-chevron-left::before, .icon-block::before, .icon-circle-close::before, .icon-box-close::before, .icon-square-close::before, .icon-close::before, .icon-circle-add::before, .icon-box-add::before, .icon-square-add::before, .icon-add::before, .icon-circle-remove::before, .icon-box-remove::before, .icon-square-remove::before, .icon-remove::before, .icon-circle-check::before, .icon-download-check::before, .icon-check-all::before, .icon-check::before, .icon-toggle-on::before, .icon-toggle-off::before, .icon-radio-button::before, .icon-radio-button-o::before, .icon-check-box::before, .icon-check-box-o::before, .icon-circle-o::before, .icon-circle::before, .icon-square-o::before, .icon-square::before {
+.icon-long-arrow-down, .icon-long-arrow-up, .icon-long-arrow-right, .icon-long-arrow-left, .icon-arrow-down, .icon-arrow-up, .icon-arrow-right, .icon-arrow-left, .icon-angle-down, .icon-angle-up, .icon-angle-right, .icon-angle-left, .icon-chevrons-down, .icon-chevron-down, .icon-chevrons-up, .icon-chevron-up, .icon-chevrons-right, .icon-chevron-right, .icon-chevrons-left, .icon-chevron-left, .icon-block, .icon-circle-close, .icon-box-close, .icon-square-close, .icon-close, .icon-circle-add, .icon-box-add, .icon-square-add, .icon-add, .icon-circle-remove, .icon-box-remove, .icon-square-remove, .icon-remove, .icon-circle-check, .icon-download-check, .icon-check-all, .icon-check, .icon-toggle-on, .icon-toggle-off, .icon-radio-button, .icon-radio-button-o, .icon-check-box, .icon-check-box-o, .icon-circle-o, .icon-circle, .icon-square-o, .icon-square, .icon-long-arrow-down::after, .icon-long-arrow-up::after, .icon-long-arrow-right::after, .icon-long-arrow-left::after, .icon-arrow-down::after, .icon-arrow-up::after, .icon-arrow-right::after, .icon-arrow-left::after, .icon-angle-down::after, .icon-angle-up::after, .icon-angle-right::after, .icon-angle-left::after, .icon-chevrons-down::after, .icon-chevron-down::after, .icon-chevrons-up::after, .icon-chevron-up::after, .icon-chevrons-right::after, .icon-chevron-right::after, .icon-chevrons-left::after, .icon-chevron-left::after, .icon-block::after, .icon-circle-close::after, .icon-box-close::after, .icon-square-close::after, .icon-close::after, .icon-circle-add::after, .icon-box-add::after, .icon-square-add::after, .icon-add::after, .icon-circle-remove::after, .icon-box-remove::after, .icon-square-remove::after, .icon-remove::after, .icon-circle-check::after, .icon-download-check::after, .icon-check-all::after, .icon-check::after, .icon-toggle-on::after, .icon-toggle-off::after, .icon-radio-button::after, .icon-radio-button-o::after, .icon-check-box::after, .icon-check-box-o::after, .icon-circle-o::after, .icon-circle::after, .icon-square-o::after, .icon-square::after, .icon-long-arrow-down::before, .icon-long-arrow-up::before, .icon-long-arrow-right::before, .icon-long-arrow-left::before, .icon-arrow-down::before, .icon-arrow-up::before, .icon-arrow-right::before, .icon-arrow-left::before, .icon-angle-down::before, .icon-angle-up::before, .icon-angle-right::before, .icon-angle-left::before, .icon-chevrons-down::before, .icon-chevron-down::before, .icon-chevrons-up::before, .icon-chevron-up::before, .icon-chevrons-right::before, .icon-chevron-right::before, .icon-chevrons-left::before, .icon-chevron-left::before, .icon-block::before, .icon-circle-close::before, .icon-box-close::before, .icon-square-close::before, .icon-close::before, .icon-circle-add::before, .icon-box-add::before, .icon-square-add::before, .icon-add::before, .icon-circle-remove::before, .icon-box-remove::before, .icon-square-remove::before, .icon-remove::before, .icon-circle-check::before, .icon-download-check::before, .icon-check-all::before, .icon-check::before, .icon-toggle-on::before, .icon-toggle-off::before, .icon-radio-button::before, .icon-radio-button-o::before, .icon-check-box::before, .icon-check-box-o::before, .icon-circle-o::before, .icon-circle::before, .icon-square-o::before, .icon-square::before {
   box-sizing: border-box;
 }
 
@@ -1060,4 +1060,220 @@ code {
   inset: 0;
   margin: auto;
   transform: translateY(-25%) rotate(45deg);
+}
+
+.icon-arrow-left {
+  width: 1em;
+  height: 1em;
+}
+
+.icon-arrow-left::after {
+  content: '';
+  position: absolute;
+  width: 0.4em;
+  height: 0.4em;
+  border-left: 0.1em solid currentColor;
+  border-bottom: 0.1em solid currentColor;
+  left: 0.25em;
+  top: 50%;
+  transform: translateY(-50%) rotate(45deg);
+}
+
+.icon-arrow-left::before {
+  content: '';
+  position: absolute;
+  width: 0.5em;
+  height: 0.1em;
+  inset: 0;
+  margin: auto;
+  background: currentColor;
+}
+
+.icon-arrow-right {
+  width: 1em;
+  height: 1em;
+}
+
+.icon-arrow-right::after {
+  content: '';
+  position: absolute;
+  width: 0.4em;
+  height: 0.4em;
+  border-right: 0.1em solid currentColor;
+  border-top: 0.1em solid currentColor;
+  right: 0.25em;
+  top: 50%;
+  transform: translateY(-50%) rotate(45deg);
+}
+
+.icon-arrow-right::before {
+  content: '';
+  position: absolute;
+  width: 0.5em;
+  height: 0.1em;
+  inset: 0;
+  margin: auto;
+  background: currentColor;
+}
+
+.icon-arrow-up {
+  width: 1em;
+  height: 1em;
+}
+
+.icon-arrow-up::after {
+  content: '';
+  position: absolute;
+  width: 0.4em;
+  height: 0.4em;
+  border-left: 0.1em solid currentColor;
+  border-top: 0.1em solid currentColor;
+  left: 50%;
+  top: 0.25em;
+  transform: translateX(-50%) rotate(45deg);
+}
+
+.icon-arrow-up::before {
+  content: '';
+  position: absolute;
+  width: 0.1em;
+  height: 0.5em;
+  inset: 0;
+  margin: auto;
+  background: currentColor;
+}
+
+.icon-arrow-down {
+  width: 1em;
+  height: 1em;
+}
+
+.icon-arrow-down::after {
+  content: '';
+  position: absolute;
+  width: 0.4em;
+  height: 0.4em;
+  border-right: 0.1em solid currentColor;
+  border-bottom: 0.1em solid currentColor;
+  left: 50%;
+  bottom: 0.25em;
+  transform: translateX(-50%) rotate(45deg);
+}
+
+.icon-arrow-down::before {
+  content: '';
+  position: absolute;
+  width: 0.1em;
+  height: 0.5em;
+  inset: 0;
+  margin: auto;
+  background: currentColor;
+}
+
+.icon-long-arrow-left {
+  width: 1em;
+  height: 1em;
+}
+
+.icon-long-arrow-left::after {
+  content: '';
+  position: absolute;
+  width: 0.4em;
+  height: 0.4em;
+  border-left: 0.1em solid currentColor;
+  border-bottom: 0.1em solid currentColor;
+  left: 0.1em;
+  top: 50%;
+  transform: translateY(-50%) rotate(45deg);
+}
+
+.icon-long-arrow-left::before {
+  content: '';
+  position: absolute;
+  width: 0.8em;
+  height: 0.1em;
+  inset: 0;
+  margin: auto;
+  background: currentColor;
+}
+
+.icon-long-arrow-right {
+  width: 1em;
+  height: 1em;
+}
+
+.icon-long-arrow-right::after {
+  content: '';
+  position: absolute;
+  width: 0.4em;
+  height: 0.4em;
+  border-right: 0.1em solid currentColor;
+  border-top: 0.1em solid currentColor;
+  right: 0.1em;
+  top: 50%;
+  transform: translateY(-50%) rotate(45deg);
+}
+
+.icon-long-arrow-right::before {
+  content: '';
+  position: absolute;
+  width: 0.8em;
+  height: 0.1em;
+  inset: 0;
+  margin: auto;
+  background: currentColor;
+}
+
+.icon-long-arrow-up {
+  width: 1em;
+  height: 1em;
+}
+
+.icon-long-arrow-up::after {
+  content: '';
+  position: absolute;
+  width: 0.4em;
+  height: 0.4em;
+  border-left: 0.1em solid currentColor;
+  border-top: 0.1em solid currentColor;
+  left: 50%;
+  top: 0.1em;
+  transform: translateX(-50%) rotate(45deg);
+}
+
+.icon-long-arrow-up::before {
+  content: '';
+  position: absolute;
+  width: 0.1em;
+  height: 0.8em;
+  inset: 0;
+  margin: auto;
+  background: currentColor;
+}
+
+.icon-long-arrow-down {
+  width: 1em;
+  height: 1em;
+}
+
+.icon-long-arrow-down::after {
+  content: '';
+  position: absolute;
+  width: 0.4em;
+  height: 0.4em;
+  border-right: 0.1em solid currentColor;
+  border-bottom: 0.1em solid currentColor;
+  left: 50%;
+  bottom: 0.1em;
+  transform: translateX(-50%) rotate(45deg);
+}
+
+.icon-long-arrow-down::before {
+  content: '';
+  position: absolute;
+  width: 0.1em;
+  height: 0.8em;
+  inset: 0;
+  margin: auto;
+  background: currentColor;
 }
