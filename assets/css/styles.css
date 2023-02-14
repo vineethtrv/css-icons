@@ -361,6 +361,7 @@ code {
   max-width: 1200px;
   display: flex;
   flex-wrap: wrap;
+  margin: auto;
 }
 
 .list span {
@@ -377,12 +378,12 @@ code {
   font-size: 32px;
 }
 
-.icon-circle-close, .icon-box-close, .icon-square-close, .icon-close, .icon-circle-add, .icon-box-add, .icon-square-add, .icon-add, .icon-circle-remove, .icon-box-remove, .icon-square-remove, .icon-remove, .icon-circle-check, .icon-download-check, .icon-check-all, .icon-check, .icon-toggle-on, .icon-toggle-off, .icon-radio-button, .icon-radio-button-o, .icon-check-box, .icon-check-box-o, .icon-circle-o, .icon-circle, .icon-square-o, .icon-square {
+.icon-angle-down, .icon-angle-up, .icon-angle-right, .icon-angle-left, .icon-chevrons-down, .icon-chevron-down, .icon-chevrons-up, .icon-chevron-up, .icon-chevrons-right, .icon-chevron-right, .icon-chevrons-left, .icon-chevron-left, .icon-block, .icon-circle-close, .icon-box-close, .icon-square-close, .icon-close, .icon-circle-add, .icon-box-add, .icon-square-add, .icon-add, .icon-circle-remove, .icon-box-remove, .icon-square-remove, .icon-remove, .icon-circle-check, .icon-download-check, .icon-check-all, .icon-check, .icon-toggle-on, .icon-toggle-off, .icon-radio-button, .icon-radio-button-o, .icon-check-box, .icon-check-box-o, .icon-circle-o, .icon-circle, .icon-square-o, .icon-square {
   display: inline-block;
   position: relative;
 }
 
-.icon-circle-close, .icon-box-close, .icon-square-close, .icon-close, .icon-circle-add, .icon-box-add, .icon-square-add, .icon-add, .icon-circle-remove, .icon-box-remove, .icon-square-remove, .icon-remove, .icon-circle-check, .icon-download-check, .icon-check-all, .icon-check, .icon-toggle-on, .icon-toggle-off, .icon-radio-button, .icon-radio-button-o, .icon-check-box, .icon-check-box-o, .icon-circle-o, .icon-circle, .icon-square-o, .icon-square, .icon-circle-close::after, .icon-box-close::after, .icon-square-close::after, .icon-close::after, .icon-circle-add::after, .icon-box-add::after, .icon-square-add::after, .icon-add::after, .icon-circle-remove::after, .icon-box-remove::after, .icon-square-remove::after, .icon-remove::after, .icon-circle-check::after, .icon-download-check::after, .icon-check-all::after, .icon-check::after, .icon-toggle-on::after, .icon-toggle-off::after, .icon-radio-button::after, .icon-radio-button-o::after, .icon-check-box::after, .icon-check-box-o::after, .icon-circle-o::after, .icon-circle::after, .icon-square-o::after, .icon-square::after, .icon-circle-close::before, .icon-box-close::before, .icon-square-close::before, .icon-close::before, .icon-circle-add::before, .icon-box-add::before, .icon-square-add::before, .icon-add::before, .icon-circle-remove::before, .icon-box-remove::before, .icon-square-remove::before, .icon-remove::before, .icon-circle-check::before, .icon-download-check::before, .icon-check-all::before, .icon-check::before, .icon-toggle-on::before, .icon-toggle-off::before, .icon-radio-button::before, .icon-radio-button-o::before, .icon-check-box::before, .icon-check-box-o::before, .icon-circle-o::before, .icon-circle::before, .icon-square-o::before, .icon-square::before {
+.icon-angle-down, .icon-angle-up, .icon-angle-right, .icon-angle-left, .icon-chevrons-down, .icon-chevron-down, .icon-chevrons-up, .icon-chevron-up, .icon-chevrons-right, .icon-chevron-right, .icon-chevrons-left, .icon-chevron-left, .icon-block, .icon-circle-close, .icon-box-close, .icon-square-close, .icon-close, .icon-circle-add, .icon-box-add, .icon-square-add, .icon-add, .icon-circle-remove, .icon-box-remove, .icon-square-remove, .icon-remove, .icon-circle-check, .icon-download-check, .icon-check-all, .icon-check, .icon-toggle-on, .icon-toggle-off, .icon-radio-button, .icon-radio-button-o, .icon-check-box, .icon-check-box-o, .icon-circle-o, .icon-circle, .icon-square-o, .icon-square, .icon-angle-down::after, .icon-angle-up::after, .icon-angle-right::after, .icon-angle-left::after, .icon-chevrons-down::after, .icon-chevron-down::after, .icon-chevrons-up::after, .icon-chevron-up::after, .icon-chevrons-right::after, .icon-chevron-right::after, .icon-chevrons-left::after, .icon-chevron-left::after, .icon-block::after, .icon-circle-close::after, .icon-box-close::after, .icon-square-close::after, .icon-close::after, .icon-circle-add::after, .icon-box-add::after, .icon-square-add::after, .icon-add::after, .icon-circle-remove::after, .icon-box-remove::after, .icon-square-remove::after, .icon-remove::after, .icon-circle-check::after, .icon-download-check::after, .icon-check-all::after, .icon-check::after, .icon-toggle-on::after, .icon-toggle-off::after, .icon-radio-button::after, .icon-radio-button-o::after, .icon-check-box::after, .icon-check-box-o::after, .icon-circle-o::after, .icon-circle::after, .icon-square-o::after, .icon-square::after, .icon-angle-down::before, .icon-angle-up::before, .icon-angle-right::before, .icon-angle-left::before, .icon-chevrons-down::before, .icon-chevron-down::before, .icon-chevrons-up::before, .icon-chevron-up::before, .icon-chevrons-right::before, .icon-chevron-right::before, .icon-chevrons-left::before, .icon-chevron-left::before, .icon-block::before, .icon-circle-close::before, .icon-box-close::before, .icon-square-close::before, .icon-close::before, .icon-circle-add::before, .icon-box-add::before, .icon-square-add::before, .icon-add::before, .icon-circle-remove::before, .icon-box-remove::before, .icon-square-remove::before, .icon-remove::before, .icon-circle-check::before, .icon-download-check::before, .icon-check-all::before, .icon-check::before, .icon-toggle-on::before, .icon-toggle-off::before, .icon-radio-button::before, .icon-radio-button-o::before, .icon-check-box::before, .icon-check-box-o::before, .icon-circle-o::before, .icon-circle::before, .icon-square-o::before, .icon-square::before {
   box-sizing: border-box;
 }
 
@@ -821,4 +822,242 @@ code {
 .icon-circle-close::before {
   width: 0.1em;
   height: 0.5em;
+}
+
+.icon-block {
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  border: 0.1em solid currentColor;
+}
+
+.icon-block::after {
+  content: '';
+  position: absolute;
+  width: 0.9em;
+  height: 0.1em;
+  background: currentColor;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.icon-chevron-left {
+  width: 1em;
+  height: 1em;
+}
+
+.icon-chevron-left::after {
+  content: '';
+  position: absolute;
+  width: 0.7em;
+  height: 0.7em;
+  border-left: 0.1em solid currentColor;
+  border-bottom: 0.1em solid currentColor;
+  inset: 0;
+  margin: auto;
+  transform: translateX(25%) rotate(45deg);
+}
+
+.icon-chevrons-left {
+  width: 1em;
+  height: 1em;
+}
+
+.icon-chevrons-left::after, .icon-chevrons-left::before {
+  content: '';
+  position: absolute;
+  width: 0.7em;
+  height: 0.7em;
+  border-left: 0.1em solid currentColor;
+  border-bottom: 0.1em solid currentColor;
+  inset: 0;
+  margin: auto;
+  transform: rotate(45deg);
+}
+
+.icon-chevrons-left::after {
+  transform: translateX(50%) rotate(45deg);
+}
+
+.icon-chevron-right {
+  width: 1em;
+  height: 1em;
+}
+
+.icon-chevron-right::after {
+  content: '';
+  position: absolute;
+  width: 0.7em;
+  height: 0.7em;
+  border-right: 0.1em solid currentColor;
+  border-top: 0.1em solid currentColor;
+  inset: 0;
+  margin: auto;
+  transform: translateX(-25%) rotate(45deg);
+}
+
+.icon-chevrons-right {
+  width: 1em;
+  height: 1em;
+}
+
+.icon-chevrons-right::after, .icon-chevrons-right::before {
+  content: '';
+  position: absolute;
+  width: 0.7em;
+  height: 0.7em;
+  border-right: 0.1em solid currentColor;
+  border-top: 0.1em solid currentColor;
+  inset: 0;
+  margin: auto;
+  transform: rotate(45deg);
+}
+
+.icon-chevrons-right::after {
+  transform: translateX(-50%) rotate(45deg);
+}
+
+.icon-chevron-up {
+  width: 1em;
+  height: 1em;
+}
+
+.icon-chevron-up::after {
+  content: '';
+  position: absolute;
+  width: 0.7em;
+  height: 0.7em;
+  border-left: 0.1em solid currentColor;
+  border-top: 0.1em solid currentColor;
+  inset: 0;
+  margin: auto;
+  transform: translateY(25%) rotate(45deg);
+}
+
+.icon-chevrons-up {
+  width: 1em;
+  height: 1em;
+}
+
+.icon-chevrons-up::after, .icon-chevrons-up::before {
+  content: '';
+  position: absolute;
+  width: 0.7em;
+  height: 0.7em;
+  border-left: 0.1em solid currentColor;
+  border-top: 0.1em solid currentColor;
+  inset: 0;
+  margin: auto;
+  transform: rotate(45deg);
+}
+
+.icon-chevrons-up::after {
+  transform: translateY(50%) rotate(45deg);
+}
+
+.icon-chevron-down {
+  width: 1em;
+  height: 1em;
+}
+
+.icon-chevron-down::after {
+  content: '';
+  position: absolute;
+  width: 0.7em;
+  height: 0.7em;
+  border-right: 0.1em solid currentColor;
+  border-bottom: 0.1em solid currentColor;
+  inset: 0;
+  margin: auto;
+  transform: translateY(-25%) rotate(45deg);
+}
+
+.icon-chevrons-down {
+  width: 1em;
+  height: 1em;
+}
+
+.icon-chevrons-down::after, .icon-chevrons-down::before {
+  content: '';
+  position: absolute;
+  width: 0.7em;
+  height: 0.7em;
+  border-right: 0.1em solid currentColor;
+  border-bottom: 0.1em solid currentColor;
+  inset: 0;
+  margin: auto;
+  transform: rotate(45deg);
+}
+
+.icon-chevrons-down::after {
+  transform: translateY(-50%) rotate(45deg);
+}
+
+.icon-angle-left {
+  width: 1em;
+  height: 1em;
+}
+
+.icon-angle-left::after {
+  content: '';
+  position: absolute;
+  width: 0.7em;
+  height: 0.7em;
+  border-left: 0.2em solid currentColor;
+  border-bottom: 0.2em solid currentColor;
+  inset: 0;
+  margin: auto;
+  transform: translateX(25%) rotate(45deg);
+}
+
+.icon-angle-right {
+  width: 1em;
+  height: 1em;
+}
+
+.icon-angle-right::after {
+  content: '';
+  position: absolute;
+  width: 0.7em;
+  height: 0.7em;
+  border-right: 0.2em solid currentColor;
+  border-top: 0.2em solid currentColor;
+  inset: 0;
+  margin: auto;
+  transform: translateX(-25%) rotate(45deg);
+}
+
+.icon-angle-up {
+  width: 1em;
+  height: 1em;
+}
+
+.icon-angle-up::after {
+  content: '';
+  position: absolute;
+  width: 0.7em;
+  height: 0.7em;
+  border-left: 0.2em solid currentColor;
+  border-top: 0.2em solid currentColor;
+  inset: 0;
+  margin: auto;
+  transform: translateY(25%) rotate(45deg);
+}
+
+.icon-angle-down {
+  width: 1em;
+  height: 1em;
+}
+
+.icon-angle-down::after {
+  content: '';
+  position: absolute;
+  width: 0.7em;
+  height: 0.7em;
+  border-right: 0.2em solid currentColor;
+  border-bottom: 0.2em solid currentColor;
+  inset: 0;
+  margin: auto;
+  transform: translateY(-25%) rotate(45deg);
 }
