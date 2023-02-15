@@ -382,12 +382,12 @@ code {
   width: 300px;
 }
 
-.icon-down, .icon-up, .icon-right, .icon-left, .icon-circle-caret-down, .icon-circle-caret-up, .icon-circle-caret-right, .icon-circle-caret-left, .icon-caret-down, .icon-caret-up, .icon-caret-right, .icon-caret-left, .icon-long-arrow-down, .icon-long-arrow-up, .icon-long-arrow-right, .icon-long-arrow-left, .icon-circle-arrow-down, .icon-circle-arrow-up, .icon-circle-arrow-right, .icon-circle-arrow-left, .icon-arrow-down, .icon-arrow-up, .icon-arrow-right, .icon-arrow-left, .icon-angle-down, .icon-angle-up, .icon-angle-right, .icon-angle-left, .icon-chevrons-down, .icon-chevron-down, .icon-chevrons-up, .icon-chevron-up, .icon-chevrons-right, .icon-chevron-right, .icon-chevrons-left, .icon-chevron-left, .icon-block, .icon-circle-close, .icon-box-close, .icon-square-close, .icon-close, .icon-circle-add, .icon-box-add, .icon-square-add, .icon-add, .icon-circle-remove, .icon-box-remove, .icon-square-remove, .icon-remove, .icon-circle-check, .icon-download-check, .icon-check-all, .icon-check, .icon-toggle-on, .icon-toggle-off, .icon-radio-button, .icon-radio-button-o, .icon-check-box, .icon-check-box-o, .icon-circle-o, .icon-circle, .icon-square-o, .icon-square {
+.icon-upload, .icon-download, .icon-pull-down, .icon-pull-up, .icon-pull-right, .icon-pull-left, .icon-push-down, .icon-push-up, .icon-push-right, .icon-push-left, .icon-down, .icon-up, .icon-right, .icon-left, .icon-circle-caret-down, .icon-circle-caret-up, .icon-circle-caret-right, .icon-circle-caret-left, .icon-caret-down, .icon-caret-up, .icon-caret-right, .icon-caret-left, .icon-long-arrow-down, .icon-long-arrow-up, .icon-long-arrow-right, .icon-long-arrow-left, .icon-circle-arrow-down, .icon-circle-arrow-up, .icon-circle-arrow-right, .icon-circle-arrow-left, .icon-arrow-down, .icon-arrow-up, .icon-arrow-right, .icon-arrow-left, .icon-angle-down, .icon-angle-up, .icon-angle-right, .icon-angle-left, .icon-chevrons-down, .icon-chevron-down, .icon-chevrons-up, .icon-chevron-up, .icon-chevrons-right, .icon-chevron-right, .icon-chevrons-left, .icon-chevron-left, .icon-block, .icon-circle-close, .icon-box-close, .icon-square-close, .icon-close, .icon-circle-add, .icon-box-add, .icon-square-add, .icon-add, .icon-circle-remove, .icon-box-remove, .icon-square-remove, .icon-remove, .icon-circle-check, .icon-download-check, .icon-check-all, .icon-check, .icon-toggle-on, .icon-toggle-off, .icon-radio-button, .icon-radio-button-o, .icon-check-box, .icon-check-box-o, .icon-circle-o, .icon-circle, .icon-square-o, .icon-square {
   display: inline-block;
   position: relative;
 }
 
-.icon-down, .icon-up, .icon-right, .icon-left, .icon-circle-caret-down, .icon-circle-caret-up, .icon-circle-caret-right, .icon-circle-caret-left, .icon-caret-down, .icon-caret-up, .icon-caret-right, .icon-caret-left, .icon-long-arrow-down, .icon-long-arrow-up, .icon-long-arrow-right, .icon-long-arrow-left, .icon-circle-arrow-down, .icon-circle-arrow-up, .icon-circle-arrow-right, .icon-circle-arrow-left, .icon-arrow-down, .icon-arrow-up, .icon-arrow-right, .icon-arrow-left, .icon-angle-down, .icon-angle-up, .icon-angle-right, .icon-angle-left, .icon-chevrons-down, .icon-chevron-down, .icon-chevrons-up, .icon-chevron-up, .icon-chevrons-right, .icon-chevron-right, .icon-chevrons-left, .icon-chevron-left, .icon-block, .icon-circle-close, .icon-box-close, .icon-square-close, .icon-close, .icon-circle-add, .icon-box-add, .icon-square-add, .icon-add, .icon-circle-remove, .icon-box-remove, .icon-square-remove, .icon-remove, .icon-circle-check, .icon-download-check, .icon-check-all, .icon-check, .icon-toggle-on, .icon-toggle-off, .icon-radio-button, .icon-radio-button-o, .icon-check-box, .icon-check-box-o, .icon-circle-o, .icon-circle, .icon-square-o, .icon-square, .icon-down::after, .icon-up::after, .icon-right::after, .icon-left::after, .icon-circle-caret-down::after, .icon-circle-caret-up::after, .icon-circle-caret-right::after, .icon-circle-caret-left::after, .icon-caret-down::after, .icon-caret-up::after, .icon-caret-right::after, .icon-caret-left::after, .icon-long-arrow-down::after, .icon-long-arrow-up::after, .icon-long-arrow-right::after, .icon-long-arrow-left::after, .icon-circle-arrow-down::after, .icon-circle-arrow-up::after, .icon-circle-arrow-right::after, .icon-circle-arrow-left::after, .icon-arrow-down::after, .icon-arrow-up::after, .icon-arrow-right::after, .icon-arrow-left::after, .icon-angle-down::after, .icon-angle-up::after, .icon-angle-right::after, .icon-angle-left::after, .icon-chevrons-down::after, .icon-chevron-down::after, .icon-chevrons-up::after, .icon-chevron-up::after, .icon-chevrons-right::after, .icon-chevron-right::after, .icon-chevrons-left::after, .icon-chevron-left::after, .icon-block::after, .icon-circle-close::after, .icon-box-close::after, .icon-square-close::after, .icon-close::after, .icon-circle-add::after, .icon-box-add::after, .icon-square-add::after, .icon-add::after, .icon-circle-remove::after, .icon-box-remove::after, .icon-square-remove::after, .icon-remove::after, .icon-circle-check::after, .icon-download-check::after, .icon-check-all::after, .icon-check::after, .icon-toggle-on::after, .icon-toggle-off::after, .icon-radio-button::after, .icon-radio-button-o::after, .icon-check-box::after, .icon-check-box-o::after, .icon-circle-o::after, .icon-circle::after, .icon-square-o::after, .icon-square::after, .icon-down::before, .icon-up::before, .icon-right::before, .icon-left::before, .icon-circle-caret-down::before, .icon-circle-caret-up::before, .icon-circle-caret-right::before, .icon-circle-caret-left::before, .icon-caret-down::before, .icon-caret-up::before, .icon-caret-right::before, .icon-caret-left::before, .icon-long-arrow-down::before, .icon-long-arrow-up::before, .icon-long-arrow-right::before, .icon-long-arrow-left::before, .icon-circle-arrow-down::before, .icon-circle-arrow-up::before, .icon-circle-arrow-right::before, .icon-circle-arrow-left::before, .icon-arrow-down::before, .icon-arrow-up::before, .icon-arrow-right::before, .icon-arrow-left::before, .icon-angle-down::before, .icon-angle-up::before, .icon-angle-right::before, .icon-angle-left::before, .icon-chevrons-down::before, .icon-chevron-down::before, .icon-chevrons-up::before, .icon-chevron-up::before, .icon-chevrons-right::before, .icon-chevron-right::before, .icon-chevrons-left::before, .icon-chevron-left::before, .icon-block::before, .icon-circle-close::before, .icon-box-close::before, .icon-square-close::before, .icon-close::before, .icon-circle-add::before, .icon-box-add::before, .icon-square-add::before, .icon-add::before, .icon-circle-remove::before, .icon-box-remove::before, .icon-square-remove::before, .icon-remove::before, .icon-circle-check::before, .icon-download-check::before, .icon-check-all::before, .icon-check::before, .icon-toggle-on::before, .icon-toggle-off::before, .icon-radio-button::before, .icon-radio-button-o::before, .icon-check-box::before, .icon-check-box-o::before, .icon-circle-o::before, .icon-circle::before, .icon-square-o::before, .icon-square::before {
+.icon-upload, .icon-download, .icon-pull-down, .icon-pull-up, .icon-pull-right, .icon-pull-left, .icon-push-down, .icon-push-up, .icon-push-right, .icon-push-left, .icon-down, .icon-up, .icon-right, .icon-left, .icon-circle-caret-down, .icon-circle-caret-up, .icon-circle-caret-right, .icon-circle-caret-left, .icon-caret-down, .icon-caret-up, .icon-caret-right, .icon-caret-left, .icon-long-arrow-down, .icon-long-arrow-up, .icon-long-arrow-right, .icon-long-arrow-left, .icon-circle-arrow-down, .icon-circle-arrow-up, .icon-circle-arrow-right, .icon-circle-arrow-left, .icon-arrow-down, .icon-arrow-up, .icon-arrow-right, .icon-arrow-left, .icon-angle-down, .icon-angle-up, .icon-angle-right, .icon-angle-left, .icon-chevrons-down, .icon-chevron-down, .icon-chevrons-up, .icon-chevron-up, .icon-chevrons-right, .icon-chevron-right, .icon-chevrons-left, .icon-chevron-left, .icon-block, .icon-circle-close, .icon-box-close, .icon-square-close, .icon-close, .icon-circle-add, .icon-box-add, .icon-square-add, .icon-add, .icon-circle-remove, .icon-box-remove, .icon-square-remove, .icon-remove, .icon-circle-check, .icon-download-check, .icon-check-all, .icon-check, .icon-toggle-on, .icon-toggle-off, .icon-radio-button, .icon-radio-button-o, .icon-check-box, .icon-check-box-o, .icon-circle-o, .icon-circle, .icon-square-o, .icon-square, .icon-upload::after, .icon-download::after, .icon-pull-down::after, .icon-pull-up::after, .icon-pull-right::after, .icon-pull-left::after, .icon-push-down::after, .icon-push-up::after, .icon-push-right::after, .icon-push-left::after, .icon-down::after, .icon-up::after, .icon-right::after, .icon-left::after, .icon-circle-caret-down::after, .icon-circle-caret-up::after, .icon-circle-caret-right::after, .icon-circle-caret-left::after, .icon-caret-down::after, .icon-caret-up::after, .icon-caret-right::after, .icon-caret-left::after, .icon-long-arrow-down::after, .icon-long-arrow-up::after, .icon-long-arrow-right::after, .icon-long-arrow-left::after, .icon-circle-arrow-down::after, .icon-circle-arrow-up::after, .icon-circle-arrow-right::after, .icon-circle-arrow-left::after, .icon-arrow-down::after, .icon-arrow-up::after, .icon-arrow-right::after, .icon-arrow-left::after, .icon-angle-down::after, .icon-angle-up::after, .icon-angle-right::after, .icon-angle-left::after, .icon-chevrons-down::after, .icon-chevron-down::after, .icon-chevrons-up::after, .icon-chevron-up::after, .icon-chevrons-right::after, .icon-chevron-right::after, .icon-chevrons-left::after, .icon-chevron-left::after, .icon-block::after, .icon-circle-close::after, .icon-box-close::after, .icon-square-close::after, .icon-close::after, .icon-circle-add::after, .icon-box-add::after, .icon-square-add::after, .icon-add::after, .icon-circle-remove::after, .icon-box-remove::after, .icon-square-remove::after, .icon-remove::after, .icon-circle-check::after, .icon-download-check::after, .icon-check-all::after, .icon-check::after, .icon-toggle-on::after, .icon-toggle-off::after, .icon-radio-button::after, .icon-radio-button-o::after, .icon-check-box::after, .icon-check-box-o::after, .icon-circle-o::after, .icon-circle::after, .icon-square-o::after, .icon-square::after, .icon-upload::before, .icon-download::before, .icon-pull-down::before, .icon-pull-up::before, .icon-pull-right::before, .icon-pull-left::before, .icon-push-down::before, .icon-push-up::before, .icon-push-right::before, .icon-push-left::before, .icon-down::before, .icon-up::before, .icon-right::before, .icon-left::before, .icon-circle-caret-down::before, .icon-circle-caret-up::before, .icon-circle-caret-right::before, .icon-circle-caret-left::before, .icon-caret-down::before, .icon-caret-up::before, .icon-caret-right::before, .icon-caret-left::before, .icon-long-arrow-down::before, .icon-long-arrow-up::before, .icon-long-arrow-right::before, .icon-long-arrow-left::before, .icon-circle-arrow-down::before, .icon-circle-arrow-up::before, .icon-circle-arrow-right::before, .icon-circle-arrow-left::before, .icon-arrow-down::before, .icon-arrow-up::before, .icon-arrow-right::before, .icon-arrow-left::before, .icon-angle-down::before, .icon-angle-up::before, .icon-angle-right::before, .icon-angle-left::before, .icon-chevrons-down::before, .icon-chevron-down::before, .icon-chevrons-up::before, .icon-chevron-up::before, .icon-chevrons-right::before, .icon-chevron-right::before, .icon-chevrons-left::before, .icon-chevron-left::before, .icon-block::before, .icon-circle-close::before, .icon-box-close::before, .icon-square-close::before, .icon-close::before, .icon-circle-add::before, .icon-box-add::before, .icon-square-add::before, .icon-add::before, .icon-circle-remove::before, .icon-box-remove::before, .icon-square-remove::before, .icon-remove::before, .icon-circle-check::before, .icon-download-check::before, .icon-check-all::before, .icon-check::before, .icon-toggle-on::before, .icon-toggle-off::before, .icon-radio-button::before, .icon-radio-button-o::before, .icon-check-box::before, .icon-check-box-o::before, .icon-circle-o::before, .icon-circle::before, .icon-square-o::before, .icon-square::before {
   box-sizing: border-box;
 }
 
@@ -1630,6 +1630,276 @@ code {
   width: 0.2em;
   background: currentColor;
   bottom: 0.2em;
+  left: 50%;
+  transform: translatex(-50%);
+}
+
+.icon-push-left {
+  width: 1em;
+  height: 1em;
+  border-left: 0.2em double currentColor;
+}
+
+.icon-push-left::after {
+  content: '';
+  position: absolute;
+  border: 0.4em solid transparent;
+  border-right-color: currentColor;
+  left: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.icon-push-left::before {
+  content: '';
+  position: absolute;
+  height: 0.2em;
+  width: 0.6em;
+  background: currentColor;
+  top: 50%;
+  left: 0.2em;
+  transform: translateY(-50%);
+}
+
+.icon-push-right {
+  width: 1em;
+  height: 1em;
+  border-right: 0.2em double currentColor;
+}
+
+.icon-push-right::after {
+  content: '';
+  position: absolute;
+  border: 0.4em solid transparent;
+  border-left-color: currentColor;
+  right: 0;
+  top: 50%;
+  transform: translate(50%, -50%);
+}
+
+.icon-push-right::before {
+  content: '';
+  position: absolute;
+  height: 0.2em;
+  width: 0.6em;
+  background: currentColor;
+  top: 50%;
+  right: 0.2em;
+  transform: translateY(-50%);
+}
+
+.icon-push-up {
+  width: 1em;
+  height: 1em;
+  border-top: 0.2em double currentColor;
+}
+
+.icon-push-up::after {
+  content: '';
+  position: absolute;
+  border: 0.4em solid transparent;
+  border-bottom-color: currentColor;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, -50%);
+}
+
+.icon-push-up::before {
+  content: '';
+  position: absolute;
+  height: 0.6em;
+  width: 0.2em;
+  background: currentColor;
+  top: 0.2em;
+  left: 50%;
+  transform: translatex(-50%);
+}
+
+.icon-push-down {
+  width: 1em;
+  height: 1em;
+  border-bottom: 0.2em double currentColor;
+}
+
+.icon-push-down::after {
+  content: '';
+  position: absolute;
+  border: 0.4em solid transparent;
+  border-top-color: currentColor;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 50%);
+}
+
+.icon-push-down::before {
+  content: '';
+  position: absolute;
+  height: 0.6em;
+  width: 0.2em;
+  background: currentColor;
+  bottom: 0.2em;
+  left: 50%;
+  transform: translatex(-50%);
+}
+
+.icon-pull-left {
+  width: 1em;
+  height: 1em;
+  border-right: 0.2em double currentColor;
+}
+
+.icon-pull-left::after {
+  content: '';
+  position: absolute;
+  border: 0.4em solid transparent;
+  border-right-color: currentColor;
+  left: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.icon-pull-left::before {
+  content: '';
+  position: absolute;
+  height: 0.2em;
+  width: 0.6em;
+  background: currentColor;
+  top: 50%;
+  left: 0.2em;
+  transform: translateY(-50%);
+}
+
+.icon-pull-right {
+  width: 1em;
+  height: 1em;
+  border-left: 0.2em double currentColor;
+}
+
+.icon-pull-right::after {
+  content: '';
+  position: absolute;
+  border: 0.4em solid transparent;
+  border-left-color: currentColor;
+  right: 0;
+  top: 50%;
+  transform: translate(50%, -50%);
+}
+
+.icon-pull-right::before {
+  content: '';
+  position: absolute;
+  height: 0.2em;
+  width: 0.6em;
+  background: currentColor;
+  top: 50%;
+  right: 0.2em;
+  transform: translateY(-50%);
+}
+
+.icon-pull-up {
+  width: 1em;
+  height: 1em;
+  border-bottom: 0.2em double currentColor;
+}
+
+.icon-pull-up::after {
+  content: '';
+  position: absolute;
+  border: 0.4em solid transparent;
+  border-bottom-color: currentColor;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, -50%);
+}
+
+.icon-pull-up::before {
+  content: '';
+  position: absolute;
+  height: 0.6em;
+  width: 0.2em;
+  background: currentColor;
+  top: 0.2em;
+  left: 50%;
+  transform: translatex(-50%);
+}
+
+.icon-pull-down {
+  width: 1em;
+  height: 1em;
+  border-top: 0.2em double currentColor;
+}
+
+.icon-pull-down::after {
+  content: '';
+  position: absolute;
+  border: 0.4em solid transparent;
+  border-top-color: currentColor;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 50%);
+}
+
+.icon-pull-down::before {
+  content: '';
+  position: absolute;
+  height: 0.6em;
+  width: 0.2em;
+  background: currentColor;
+  bottom: 0.2em;
+  left: 50%;
+  transform: translatex(-50%);
+}
+
+.icon-download {
+  width: 1em;
+  height: 1em;
+  border-bottom: 0.25em solid currentColor;
+}
+
+.icon-download::after {
+  content: '';
+  position: absolute;
+  border: 0.4em solid transparent;
+  border-top-color: currentColor;
+  left: 50%;
+  bottom: 0.05em;
+  transform: translate(-50%, 50%);
+}
+
+.icon-download::before {
+  content: '';
+  position: absolute;
+  height: 0.6em;
+  width: 0.2em;
+  background: currentColor;
+  bottom: 0.15em;
+  left: 50%;
+  transform: translatex(-50%);
+}
+
+.icon-upload {
+  width: 1em;
+  height: 1em;
+  border-bottom: 0.25em solid currentColor;
+}
+
+.icon-upload::after {
+  content: '';
+  position: absolute;
+  border: 0.4em solid transparent;
+  border-bottom-color: currentColor;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, -50%);
+}
+
+.icon-upload::before {
+  content: '';
+  position: absolute;
+  height: 0.6em;
+  width: 0.2em;
+  background: currentColor;
+  top: 0.1em;
   left: 50%;
   transform: translatex(-50%);
 }
