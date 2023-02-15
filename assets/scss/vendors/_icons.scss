@@ -1130,3 +1130,104 @@
         bottom: 0;
     }
 }
+
+
+.icon-left {
+    @extend %icon;
+    width: 1em;
+    height: 1em;
+    &::after {
+        content: '';
+        position: absolute;
+        border: 0.4em solid transparent;
+        border-right-color: currentColor;
+        left: 0;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    &::before{
+        content: '';
+        position: absolute;
+        height: 0.2em;
+        width: 0.8em;
+        background: currentColor;
+        top: 50%;
+        left: 0.2em;
+        transform: translateY(-50%);
+    }
+}
+
+.icon-right {
+    @extend %icon;
+    width: 1em;
+    height: 1em;
+    &::after {
+        content: '';
+        position: absolute;
+        border: 0.4em solid transparent;
+        border-left-color: currentColor;
+        right: 0;
+        top: 50%;
+        transform: translate(50%, -50%);
+    }
+    &::before {
+        content: '';
+        position: absolute;
+        height: 0.2em;
+        width: 0.8em;
+        background: currentColor;
+        top: 50%;
+        right: 0.2em;
+        transform: translateY(-50%);
+    }
+}
+
+.icon-up {
+    @extend %icon;
+    width: 1em;
+    height: 1em;
+    &::after {
+        content: '';
+        position: absolute;
+        border: 0.4em solid transparent;
+        border-bottom-color: currentColor;
+        left: 50%;
+        top: 0;
+        transform: translate(-50%, -50%);
+    }
+    &::before {
+        content: '';
+        position: absolute;
+        height: 0.8em;
+        width: 0.2em;
+        background: currentColor;
+        top: 0.2em;
+        left: 50%;
+        transform: translatex(-50%);
+    }
+}
+
+.icon-down {
+    @extend %icon;
+    width: 1em;
+    height: 1em;
+    &::after {
+        content: '';
+        position: absolute;
+        border: 0.4em solid transparent;
+        border-top-color: currentColor;
+        left: 50%;
+        bottom: 0;
+        transform: translate(-50%, 50%);
+    }
+    &::before {
+        content: '';
+        position: absolute;
+        height: 0.8em;
+        width: 0.2em;
+        background: currentColor;
+        bottom: 0.2em;
+        left: 50%;
+        transform: translatex(-50%);
+    }
+}
