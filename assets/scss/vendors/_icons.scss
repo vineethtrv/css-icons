@@ -1231,6 +1231,115 @@
         transform: translatex(-50%);
     }
 }
+
+.icon-circle-left {
+    @extend %icon;
+    width: 1em;
+    height: 1em;
+    border: 0.1em solid currentColor;
+    border-radius: 50%;
+
+    &::after {
+        content: '';
+        position: absolute;
+        border: 0.3em solid transparent;
+        border-right-color: currentColor;
+        left: 0.1em;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    &::before{
+        content: '';
+        position: absolute;
+        height: 0.2em;
+        width: 0.5em;
+        background: currentColor;
+        top: 50%;
+        left: 0.2em;
+        transform: translateY(-50%);
+    }
+}
+
+.icon-circle-right {
+    @extend %icon;
+    width: 1em;
+    height: 1em;
+    border: 0.1em solid currentColor;
+    border-radius: 50%;
+    &::after {
+        content: '';
+        position: absolute;
+        border: 0.3em solid transparent;
+        border-left-color: currentColor;
+        right: 0.1em;
+        top: 50%;
+        transform: translate(50%, -50%);
+    }
+    &::before {
+        content: '';
+        position: absolute;
+        height: 0.2em;
+        width: 0.5em;
+        background: currentColor;
+        top: 50%;
+        right: 0.2em;
+        transform: translateY(-50%);
+    }
+}
+
+.icon-circle-up {
+    @extend %icon;
+    width: 1em;
+    height: 1em;
+    border: 0.1em solid currentColor;
+    border-radius: 50%;
+    &::after {
+        content: '';
+        position: absolute;
+        border: 0.3em solid transparent;
+        border-bottom-color: currentColor;
+        left: 50%;
+        top: 0.1em;
+        transform: translate(-50%, -50%);
+    }
+    &::before {
+        content: '';
+        position: absolute;
+        height: 0.5em;
+        width: 0.2em;
+        background: currentColor;
+        top: 0.2em;
+        left: 50%;
+        transform: translatex(-50%);
+    }
+}
+
+.icon-circle-down {
+    @extend %icon;
+    width: 1em;
+    height: 1em;
+    border: 0.1em solid currentColor;
+    border-radius: 50%;
+    &::after {
+        content: '';
+        position: absolute;
+        border: 0.3em solid transparent;
+        border-top-color: currentColor;
+        left: 50%;
+        bottom: 0.1em;
+        transform: translate(-50%, 50%);
+    }
+    &::before {
+        content: '';
+        position: absolute;
+        height: 0.5em;
+        width: 0.2em;
+        background: currentColor;
+        bottom: 0.2em;
+        left: 50%;
+        transform: translatex(-50%);
+    }
+}
 .icon-push-left {
     @extend %icon;
     width: 1em;
