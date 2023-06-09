@@ -36,6 +36,34 @@
     border-radius: 50%;
 }
 
+.icon-diamond {
+    @extend %icon;
+    width: 1em;
+    height: 1em;
+    &::after {
+        content: '';
+        position: absolute;
+        background-color: currentColor;
+        inset: 0;
+        transform: rotate(45deg);
+    }
+}
+
+.icon-diamond-o {
+    @extend %icon;
+    width: 1em;
+    height: 1em;
+    &::after {
+        content: '';
+        position: absolute;
+        border: 0.1em solid currentColor;
+        inset: 0;
+        transform: rotate(45deg);
+    }
+}
+
+
+
 .icon-check-box-o {
     @extend %icon;
     width: 1em;
@@ -1579,6 +1607,34 @@
         width: 0.2em;
         background: currentColor;
         bottom: 0.15em;
+        left: 50%;
+        transform: translatex(-50%);
+    }
+}
+
+.icon-upload {
+    @extend %icon;
+    width: 1em;
+    height: 1em;
+    border-bottom: 0.25em solid currentColor;
+
+    &::after {
+        content: '';
+        position: absolute;
+        border: 0.4em solid transparent;
+        border-bottom-color: currentColor;
+        left: 50%;
+        top: 0;
+        transform: translate(-50%, -50%);
+    }
+
+    &::before {
+        content: '';
+        position: absolute;
+        height: 0.6em;
+        width: 0.2em;
+        background: currentColor;
+        top: 0.1em;
         left: 50%;
         transform: translatex(-50%);
     }
